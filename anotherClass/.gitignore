@@ -1,0 +1,8 @@
+build
+__pycache__
+
+*.so
+*.cxx
+*.py
+
+!setup.py
