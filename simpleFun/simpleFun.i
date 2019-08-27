@@ -2,7 +2,7 @@
 
 %{
 #define SWIG_FILE_WITH_INIT
-#include "simpleFun.cpp"
+#include "simpleFun.h"
 %}
 
-int simpleFun(int n);
+int plusAnswer(int n);
