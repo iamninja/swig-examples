@@ -1,4 +1,4 @@
-anotherClass
+multiClass
 ===
 Description
 ----
@@ -16,7 +16,7 @@ Compile the Python module
 python setup.py build_ext --inplace
 ```
 Then you can import the generated module into Python
-```
+```python
 >>> import Circle
 >>> c = Circle.Circle(3, 2, 5) # Circle(radius, x, y)
 >>> c.get_radius()

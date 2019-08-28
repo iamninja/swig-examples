@@ -17,15 +17,15 @@ Compile the Python module
 python setup.py build_ext --inplace
 ```
 Then you can import the generated module into Python
-```
+```python
 >>> import Hello
 >>> hi = Hello.Hello("This is a greeting traveller!")
 >>> hi.sayHello()
-AttributeError: 'Hello' object has no attribute 'sayHello'
+# AttributeError: 'Hello' object has no attribute 'sayHello'
 >>> hi.greeting()
-Hello there!
-This is a greeting traveller!
+# Hello there!
+# This is a greeting traveller!
 >>> hi.setMessage("You've been greeted enough...")
 >>> hi.getMessage()
-'You've been greeted enough...'
+"You've been greeted enough..."
 ```

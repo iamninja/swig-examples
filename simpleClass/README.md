@@ -16,9 +16,9 @@ Compile the Python module
 python setup.py build_ext --inplace
 ```
 Then you can import the generated module into Python
-```
+```python
 >>> import Hello
 >>> hi = Hello.Hello()
 >>> hi.sayHello()
-Hello there!
+# Hello there!
 ```
